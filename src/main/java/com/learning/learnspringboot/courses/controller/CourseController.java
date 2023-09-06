@@ -26,6 +26,7 @@ public class CourseController {
     @GetMapping("/courses")
     public List<Course> getAllCourses() {
         return repository.findAll();
+        //System.out.println();
         // return Arrays.asList(new Course(2, "Learn Sprig Boot", "John"),
         // new Course(1, "Learn Microservice", "in28Minutes"), new Course(3, "Java", "No
         // One"),
